@@ -1,0 +1,29 @@
+/* styles for my resume */
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+    
+}
+
+/*name */
+
+h1{
+    font-size: 3.5em;
+    text-transform: uppercase;
+    color: #33485e;
+    text-align: center;
+
+}
+
+
+strong{
+    color: #33485e;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
