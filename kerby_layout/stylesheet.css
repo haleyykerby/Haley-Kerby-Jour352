@@ -10,13 +10,15 @@ img {
 }
 
 .byline{
-    font-family: "times new roman", times, serif;
-    font-size: 16px;
+font-family: Helvetica, sans-serif;
+font-size: 14px;
+font-style: italic;
+    
 }
 
 .headline{
-    font-family: "times new roman", times, serif;
-    font-size: 2.5em;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
 }
 
 .caption{
@@ -25,8 +27,8 @@ img {
 }
 
 p{
-    font-family: "times new roman", times, serif;
-    font-size: 20px;
+    font-family: Georgia, serif;
+    font-size: 13px;
 }
 
 blockquote{
@@ -35,4 +37,24 @@ blockquote{
     width: 700px;
     background-color: rgb(220, 210, 210);
     padding: 15px;
+}
+
+
+.readmore{
+
+    font-family: "times new roman", times, serif;
+    margin: 0 auto;
+    width: 900px;
+}
+
+.topper{
+        font-family: "times new roman", times, serif;
+        padding: 30px;
+        text-align: center;
+        color: white;
+        font-size: 35px;
+        border-style: double;
+        border-width: 15px;
+        border-color: white;
+        background-color: black;
 }
