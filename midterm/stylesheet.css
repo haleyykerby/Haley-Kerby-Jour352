@@ -4,5 +4,60 @@
 }
 
 .topper{
+    font-family: "times new roman", times, serif;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    border-style: double;
+    border-width: 15px;
+    border-color: black;
+    background-color: white;
+
+}
+
+
+.headline{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.byline{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+.subhead{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.firstpic{
+  width: 100%;
+margin: 0 auto
+}
+
+.caption{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 16px;
+}
+
+img{
+    margin: 0 auto;
+}
+
+blockquote{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 700px;
+    background-color: rgb(232, 88, 112);
+    padding: 15px;
+    font-weight: bold;
     text-align: center;
 }
