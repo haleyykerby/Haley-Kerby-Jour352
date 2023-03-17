@@ -12,7 +12,7 @@
     font-size: 30px;
     border-style: double;
     border-width: 15px;
-    border-color: rgb(232, 88, 112);
+    border-color: rgb(232, 88, 112) !important;
     background-color: white;
 
 }
@@ -57,7 +57,7 @@ blockquote{
     font-family: Helvetica, Arial, sans-serif;
     font-size: 16px;
     width: 700px;
-    background-color: rgb(232, 88, 112);
+    background-color: rgb(232, 88, 112) !important;
     padding: 15px;
     font-weight: bold;
     text-align: center;
