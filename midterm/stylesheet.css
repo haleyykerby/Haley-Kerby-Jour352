@@ -3,6 +3,7 @@
     width: 900px;
 }
 
+/*topper styles*/
 .topper{
     font-family: "times new roman", times, serif;
     padding: 10px;
@@ -11,7 +12,7 @@
     font-size: 30px;
     border-style: double;
     border-width: 15px;
-    border-color: black;
+    border-color: rgb(232, 88, 112);
     background-color: white;
 
 }
@@ -36,7 +37,7 @@ p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
 }
-
+/* first large image, rest of images and captions*/
 .firstpic{
   width: 100%;
 margin: 0 auto
@@ -60,4 +61,9 @@ blockquote{
     padding: 15px;
     font-weight: bold;
     text-align: center;
+}
+
+.graphic{
+    margin: 0 auto;
+    width: 600px;
 }
