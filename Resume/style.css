@@ -124,7 +124,7 @@ body {
     font-size: 20px;
     color: black;
     border: 5px solid black;
-    margin: 5px;
+    margin: 25px;
 }
 
 .skillslist li{
@@ -174,28 +174,36 @@ body {
 
 .cns{
     border: 5px solid black;
-    margin: 5px
+    margin: 25px
 }
 
 
 .dbk{
     border: 5px solid ;
-    margin: 5px;
+    margin: 25px;
     border-color: #a243a2;
 }
 
 .hercampus{
     border: 5px solid black;
-    margin: 5px
+    margin: 25px
 }
 
 .gnr{
     border: 5px solid black;
-    margin: 5px
+    margin: 25px
 }
 
 .ta{
     border: 5px solid ;
-    margin: 5px;
+    margin: 25px;
     border-color: #a243a2;
+}
+
+footer{
+    width: 0 auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    display:inline
 }
