@@ -117,24 +117,25 @@ body {
 }
 
 .degrees{
-    margin-top: 5px;
-    margin-left: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+  
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 20px;
+    color: black;
+    border: 5px solid black;
+    margin: 5px;
 }
 
-.skills{
+.skillslist li{
     margin-top: 5px;
-    margin-left: 10px;
-    margin-bottom: 0px;
-    margin-right: 0px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
+    font-style: normal;
+    text-align: left;
 }
+
+
 
 
 .top{
@@ -144,12 +145,57 @@ body {
     margin:0 auto;
    font-size: 20px;
     text-align: center;
+    border: 5px solid black;
 }
 
 .headshot{
     margin-top: 15px;
     margin: 0 auto;
-    width: 200px;
+    width: 100%;
     text-align: center;
 
+}
+
+.nav-item{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+
+.navbar-brand{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.d-flex{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.cns{
+    border: 5px solid black;
+    margin: 5px
+}
+
+
+.dbk{
+    border: 5px solid ;
+    margin: 5px;
+    border-color: #a243a2;
+}
+
+.hercampus{
+    border: 5px solid black;
+    margin: 5px
+}
+
+.gnr{
+    border: 5px solid black;
+    margin: 5px
+}
+
+.ta{
+    border: 5px solid ;
+    margin: 5px;
+    border-color: #a243a2;
 }
