@@ -22,7 +22,7 @@ p{
 footer{
     text-align: center;
     padding: 10px;
-    width: 0 auto;
+    margin: 0 auto;
     background-color: black;
     color: white;
     font-family: 'Montserrat', sans-serif; ;
@@ -33,3 +33,30 @@ footer{
     font-weight: bold;
     margin-bottom: 20px;
 }
+
+.image{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.caption{
+    font-family: georgia, serif;
+    margin-left: 13%;
+    font-size: 15px;
+  
+}
+
+.col-sm{
+    text-align: center;
+    font-family: georgia, serif;
+    line-height: 180%;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+
+
+
