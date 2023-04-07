@@ -27,6 +27,7 @@ p {
 
 /*CSS header error*/
 .hed {
+
   border-top: 5px solid red;
   border-bottom: 5px solid red;
   font-size:3em;
