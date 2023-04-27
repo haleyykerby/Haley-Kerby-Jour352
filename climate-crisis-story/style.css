@@ -59,8 +59,9 @@ blockquote{
     text-align: center;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
-    color: red;
+    color: rgb(92, 46, 46);
     font-size: 22px;
+    border: 15px solid darkred;
 }
 
 .chapterhead{
@@ -86,6 +87,11 @@ blockquote{
 }
 
 
+.contributions{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+}
 
 
 
