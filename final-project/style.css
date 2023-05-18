@@ -1,15 +1,46 @@
+/*splash image*/
+.hero-image{
+    width:100%
+}
+
+.hero-container{
+    position:relative;
+    text-align:center;
+    color: white;
+}
+
+.overlay{
+    position:absolute;
+    width:100%;
+    top: 50%;
+    background: rgb(186, 10, 10);
+}
+
+.hero-hed{
+    padding-top: 25px;
+    margin: 0 auto;
+    font-size: 6em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+    color: black;
+}
+
+
+
+
+
 .headline{
     font-size: 3em;
     font-weight: 700;
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .byline{
    font-size: 1em;
    text-transform: uppercase;
-   font-family: 'Montserrat', sans-serif; 
-   text-align: center;
+   font-family: Georgia, serif; 
+   text-align: left;
 }
 
 p{
@@ -19,11 +50,12 @@ p{
 
 blockquote{
     text-align: center;
+    font-weight: bold;
     font-family:'Times New Roman', Times, serif;
     font-style: italic;
     color: black;
     font-size: 22px;
-    border-top: 7px solid rgb(50, 12, 238);
+    border-top: 7px solid red;
     border-bottom: 7px solid rgb(50, 12, 238);
 }
 
@@ -33,19 +65,18 @@ footer{
     margin: 0 auto;
     background-color: black;
     color: white;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
 }
 
 .chapterhead{
-    font-family:'Montserrat', sans-serif; 
+    font-family:'Times New Roman', Times, serif; 
     font-weight: bold;
-    margin-bottom: 20px;
+    font-size: 2em;
 }
 
 .image{
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
+
+
   width: 100%;
 }
 
@@ -66,3 +97,14 @@ footer{
 }
 
 
+/* Small devices (portrait tablets and large phones, 600px and up)  found on W3 Schools https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp*/
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
